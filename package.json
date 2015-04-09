@@ -1,7 +1,7 @@
 {
   "name": "grunt-starter",
   "version": "0.0.1",
-  "description": "grunt-starter, Manuel Gonzalez",
+  "description": "My initial setup for Grunt works.",
   "repository": {
     "type": "git",
     "url": "https://github.com/manuelitox/grunt-starter.git"
