@@ -21,5 +21,9 @@ module.exports = {
 	postcss: {
 		files: ['app/build/assets/css/*.css'],
 		tasks: ['postcss']
+	},
+	ejs: {
+		files: ['app/sources/*.ejs'],
+		tasks: ['ejs']
 	}
 };
