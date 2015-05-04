@@ -10,10 +10,6 @@ module.exports = {
 		files: 'app/build/assets/javascripts/*.js',
 		tasks: ['uglify']
 	},
-	html: {
-		files: ['*.html', '**/*.html'],
-		tasks: ['htmlbuild']
-	},
 	minifysvg: {
 		files: ['app/build/assets/graphics/svgs/*.svg'],
 		tasks: ['svgmin']
@@ -25,5 +21,9 @@ module.exports = {
 	postcss: {
 		files: ['app/build/assets/css/*.css'],
 		tasks: ['postcss']
+	},
+	ejs: {
+		files: ['app/sources/*.ejs'],
+		tasks: ['ejs']
 	}
 };
