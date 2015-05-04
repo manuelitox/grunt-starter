@@ -15,5 +15,5 @@ Don't you know about Grunt? go to [oficial website](http://gruntjs.com/getting-s
 * [autoprefixer-core](https://github.com/postcss/autoprefixer-core)
 * [grunt-grunticon](https://github.com/filamentgroup/grunticon)
 * [grunt-svgmin](https://github.com/sindresorhus/grunt-svgmin)
-* [grunt-html-build](https://github.com/spatools/grunt-html-build)
+* [grunt-ejs](https://github.com/shama/grunt-ejs)
 * [time-grunt](https://github.com/sindresorhus/time-grunt)
