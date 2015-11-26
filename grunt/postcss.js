@@ -2,8 +2,8 @@ module.exports = {
   options: {
 		map: true,
 		processors: [
-			require('autoprefixer-core')({browsers: ['last 6 version', 'ie 9', 'ie 10']}),
-			require('csswring')
+			require('autoprefixer')({browsers: ['last 6 version', 'ie 9', 'ie 10']}),
+			require('cssnano')({zindex: false})
 		]
 	},
 	dist: {
